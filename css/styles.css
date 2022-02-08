@@ -1,0 +1,156 @@
+
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.download-button{
+  margin:50px 30px 50px 0;
+}
+
+/* narbar */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title Section */
+#title{
+  background-color: #ff4c68;
+  text-align:left;
+}
+
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#title .container-fluid{
+  padding:3% 15% 7%;
+}
+
+/* Title Image */
+.title-img{
+  transform: rotate(25deg);
+  width: 30%;
+  position: absolute;
+  padding-right: 10%;
+  margin:5% 0 0 5%;
+}
+/* features */
+#features{
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.features-icons{
+  font-size: 65px;
+  color: #ef8172;
+  margin:20px auto;
+}
+.features-icons:hover{
+  color:#ff4c68;
+}
+.features-p{
+  color: #8f8f8f;
+}
+ .fetures-text{
+   font-size: 2rem;
+ }
+/* testimonials section */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item{
+
+}
+
+.testimonial-text{
+  line-height: 1.5;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.testimonials-img{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  padding: 20px 20px 25px;
+}
+
+/* Prcing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-text{
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+
+.pricing-colum{
+  padding: 2% 3%;
+}
+
+.price-heading{
+  font-size: 2rem;
+}
+
+/* cta section */
+#cta{
+  background-color: #ff4c68;
+ text-align: center;
+
+}
+
+
+/* footer section */
+
+.footer-icons{
+  font-size: 20px;
+  margin: 20px 10px;
+}
+/* responsive */
+@media(max-width:992px){
+
+#title{
+  text-align: center;
+}
+
+.title-img{
+  transform:rotate(0);
+  position:static;
+  width:80%;
+}
+
+}
